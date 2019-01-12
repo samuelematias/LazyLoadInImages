@@ -45,9 +45,6 @@ export default class App extends Component {
 		return (
 			<View
 				style={{
-					// backgroundColor: '#EEE',
-					// width: '100%',
-					// height: '100%',
 					flex: 1,
 					alignItems: 'center',
 					justifyContent: 'center',
@@ -55,7 +52,6 @@ export default class App extends Component {
 				}}
 			>
 				<Image
-					// source={require('./placeholder.png')}
 					source={{
 						uri:
 							'https://imgix.ranker.com/user_node_img/50081/1001610901/original/people-find-me-interesting-photo-u2?w=650&q=50&fm=jpg&fit=crop&crop=faces'
@@ -74,7 +70,6 @@ export default class App extends Component {
 							height: 300 || '100%'
 						}
 					]}
-					// source={require('./pp.jpeg')}
 					source={{
 						uri:
 							'https://imgix.ranker.com/user_node_img/50081/1001610901/original/people-find-me-interesting-photo-u2?w=650&q=50&fm=jpg&fit=crop&crop=faces'
@@ -103,16 +98,39 @@ export default class App extends Component {
 		this.setState({ data: newData });
 	};
 
-	_renderItem = ({ item }) => (
-		<View style={{ marginVertical: 20, height: 300, backgroundColor: '#EEE' }}>
-			{item.loaded && (
-				<Image
-					source={{ uri: item.url }}
-					style={{ width: '100%', height: 300 }}
-				/>
-			)}
-		</View>
-	);
+	_renderItem = ({ item }) => {
+		return (
+			<View
+				style={{
+					marginVertical: 20,
+					margin: 20,
+					height: 300,
+					backgroundColor: '#EEE'
+				}}
+			>
+				{item.loaded ? (
+					<View>
+						<Image
+							source={{ uri: item.url }}
+							style={{ width: '100%', height: 300 }}
+							resizeMode={'stretch'}
+							blurRadius={25}
+						/>
+						<Animated.Image
+							style={{
+								position: 'absolute',
+								opacity: this.state.opacity,
+								width: '100%',
+								height: 300
+							}}
+							source={{ uri: item.url }}
+							onLoad={this.onLoad}
+						/>
+					</View>
+				) : null}
+			</View>
+		);
+	};
 
 	_renderImageList = () => {
 		return (
