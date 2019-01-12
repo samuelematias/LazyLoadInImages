@@ -25,19 +25,23 @@ export default class App extends Component {
 			<View
 				style={{
 					// backgroundColor: '#EEE',
-					width: '100%',
-					height: 300 || '100%',
+					// width: '100%',
+					// height: '100%',
+					flex: 1,
 					alignItems: 'center',
 					justifyContent: 'center',
-					marginTop: 20
+					margin: 20
 				}}
 			>
 				<Image
-					source={require('./placeholder.png')}
-					// source={{
-					// 	uri: 'https://images.unsplash.com/photo-1467703834117-04386e3dadd8'
-					// }}
-					style={{ width: '100%', height: 300 || '100%' }}
+					// source={require('./placeholder.png')}
+					source={{
+						uri:
+							'https://imgix.ranker.com/user_node_img/50081/1001610901/original/people-find-me-interesting-photo-u2?w=650&q=50&fm=jpg&fit=crop&crop=faces'
+					}}
+					style={{ width: '100%', height: 300 }}
+					resizeMode={'stretch'}
+					blurRadius={25}
 				/>
 				<Animated.Image
 					style={[
