@@ -114,7 +114,13 @@ export default class App extends Component {
 						<Image
 							source={{ uri: item.url }}
 							indicator={ProgressCircle}
+							/**
+							 * The Progress on Spinner, tus working on iOS.
+							 * Waiting for implementation for android
+							 */
 							indicatorProps={{
+								// showsText: true //iOS Only
+								thickness: 1,
 								color: 'rgba(150, 150, 150, 1)', //Spinner color
 								unfilledColor: 'rgba(200, 200, 200, 0.2)' //Spinner Loading Color
 							}}
@@ -155,7 +161,9 @@ export default class App extends Component {
 	 */
 
 	render() {
+		//Example 1
 		// return this._renderSingleImage();
+		//Example 2
 		return this._renderImageList();
 	}
 }
