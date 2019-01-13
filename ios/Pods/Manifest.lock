@@ -1,0 +1,24 @@
+PODS:
+  - React/ART (0.57.8):
+    - React/Core
+  - React/Core (0.57.8):
+    - yoga (= 0.57.8.React)
+  - yoga (0.57.8.React)
+
+DEPENDENCIES:
+  - React/ART (from `../node_modules/react-native`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: "../node_modules/react-native"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  React: 1fe0eb13d90b625d94c3b117c274dcfd2e760e11
+  yoga: b1ce48b6cf950b98deae82838f5173ea7cf89e85
+
+PODFILE CHECKSUM: 19a9ee37f9b212174179afc86909f93be217300e
+
+COCOAPODS: 1.5.3

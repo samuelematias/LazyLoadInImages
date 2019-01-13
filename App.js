@@ -2,8 +2,9 @@
 import React, { Component } from 'react';
 
 /* Presentational */
-import { View, Image, Animated, FlatList } from 'react-native';
-
+import { View, Animated, FlatList } from 'react-native';
+import Image from 'react-native-image-progress';
+import ProgressCircle from 'react-native-progress/Circle';
 export default class App extends Component {
 	constructor(props) {
 		super(props);
@@ -112,10 +113,16 @@ export default class App extends Component {
 					<View>
 						<Image
 							source={{ uri: item.url }}
+							indicator={ProgressCircle}
+							indicatorProps={{
+								color: 'rgba(150, 150, 150, 1)', //Spinner color
+								unfilledColor: 'rgba(200, 200, 200, 0.2)' //Spinner Loading Color
+							}}
 							style={{ width: '100%', height: 300 }}
 							resizeMode={'stretch'}
 							blurRadius={25}
 						/>
+
 						<Animated.Image
 							style={{
 								position: 'absolute',
