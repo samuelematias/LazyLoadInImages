@@ -42,7 +42,7 @@ Where we can see enough of it <b>Lazy Load</b> on Images, it would be on [Instag
 
 > Note: Unfortunately, <b>progress in spinner only works on iOS 🍎</b>.<br/> 
 Until then the developer of Lib [React Native Progress](https://github.com/oblador/react-native-progress) has not yet pronounced on this problem in Android 🤖.<br/> 
-An [Issue](https://github.com/oblador/react-native-progress/issues/101) has been opened about this, now all that remains is the resolution of this [Issue](https://github.com/oblador/react-native-progress/issues/101).
+An [Issue](https://github.com/oblador/react-native-progress/issues/101#issuecomment-453794179) has been opened about this, now all that remains is the resolution of this [Issue](https://github.com/oblador/react-native-progress/issues/101#issuecomment-453794179).
 
 <br/>
 
