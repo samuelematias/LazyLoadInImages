@@ -23,7 +23,7 @@
 
 On this app was developed the <b>Lazy Load</b> on Images.<br/>
 Lazy Load It would be a form of image upload feedback for the end user, in which the app will "sample" the image content with blur before even displaying it in full size.<br/>
-The effects of Lazy Load in images is mainly perceived with slow connections, as in 3g for example, so maybe if you are in a good connection, do not notice so much difference, but for someone with slow connection, it makes all the difference.
+The effects of Lazy Load in images is mainly perceived with slow connections, as in 3G for example, so maybe if you are in a good connection, do not notice so much difference, but for someone with slow connection, it makes all the difference.
 When we deal with mobile applications, we are automatically exposed to completely different environments for each user.<br/>
 Where we can see enough of it <b>Lazy Load</b> on Images, it would be on [Instagram](https://imgur.com/XlWb7c2):
 
@@ -62,7 +62,7 @@ Before `react-native run-android`, dont forget do this:
 
 <br/>
 
-> Note: On iOS 🍎, if you have anyproblem like this: [iOS Issue - ARTShape](https://user-images.githubusercontent.com/14864292/32197667-e5e6b7ae-bda3-11e7-8bbd-4e7f6ebeb35b.png), please follow this steps to fix this problem [FIX iOS Issue - ARTShape](https://docs.google.com/document/d/1bhoxYt_lRdWX01Vh8P6oicLMCASqvgEDvYcFIE5hDUc/edit?usp=sharing)
+> Note: On iOS 🍎, if you have anyproblem like this: [iOS Issue - ARTShape](https://user-images.githubusercontent.com/14864292/32197667-e5e6b7ae-bda3-11e7-8bbd-4e7f6ebeb35b.png), please follow this steps to fix this problem: [FIX iOS Issue - ARTShape](https://docs.google.com/document/d/1bhoxYt_lRdWX01Vh8P6oicLMCASqvgEDvYcFIE5hDUc/edit?usp=sharing)
 
 <br/>
 
