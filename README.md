@@ -62,7 +62,7 @@ Before `react-native run-android`, dont forget do this:
 
 <br/>
 
-> Note: On iOS 🍎, if you have anyproblem like this: [iOS Issue - ARTShape](https://user-images.githubusercontent.com/14864292/32197667-e5e6b7ae-bda3-11e7-8bbd-4e7f6ebeb35b.png), please follow this steps to fix this problem: [FIX iOS Issue - ARTShape](https://docs.google.com/document/d/1bhoxYt_lRdWX01Vh8P6oicLMCASqvgEDvYcFIE5hDUc/edit?usp=sharing)
+> Note: On iOS 🍎, if you have anyproblem like this: [iOS Issue - ARTShape](https://user-images.githubusercontent.com/14864292/32197667-e5e6b7ae-bda3-11e7-8bbd-4e7f6ebeb35b.png), <br/> please follow this steps to fix this problem: [FIX iOS Issue - ARTShape](https://docs.google.com/document/d/1bhoxYt_lRdWX01Vh8P6oicLMCASqvgEDvYcFIE5hDUc/edit?usp=sharing)
 
 <br/>
 
